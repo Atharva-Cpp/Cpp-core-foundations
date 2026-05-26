@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"The size of each data type using 'sizeof()' inbuilt function(In bytes):"<<endl;
+    cout<<"integer\t"<<sizeof(int)<<endl;
+    cout<<"float\t"<<sizeof(float)<<endl;
+    cout<<"double\t"<<sizeof(double)<<endl;
+    cout<<"char\t"<<sizeof(char)<<endl;
+    return 0;
+}
