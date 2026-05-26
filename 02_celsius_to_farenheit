@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    double c=0.0;
+    double f=0.0;
+    cout<<"Input temperature to convert from celsius to farenheit:\n";
+    cin>>c;
+    f=(c*9/5)+32;
+    cout<<"in farenheit:"<<f;
+    return 0;
+}
