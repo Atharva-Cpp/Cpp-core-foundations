@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    double pa=0.0;
+    double tax=0.0;
+    cout<<"Enter your annual income:\n";
+    cin>>pa;
+    if(pa>100000 && pa<=300000)
+    {
+        tax=(pa-100000)*0.05;
+    }
+    else if(pa>300000 && pa<=1000000)
+    {
+        tax=10000 + (pa-300000)*0.10;
+    }
+     else if(pa>1000000)
+    {
+        tax=80000 + (pa-1000000)*0.20;
+    }
+    else
+    {
+        cout<<"This amount is not taxable\n";
+    }
+    cout<<"Amount of tax: "<<tax;
+    return 0;
+}
